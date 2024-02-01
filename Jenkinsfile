@@ -2,9 +2,9 @@ pipeline {
   agent any
 
   environment {
-    SERVICE_NAME       = "container-registry"
-    ORGANIZATION_NAME  = "frankisinfotech"
-    DOCKERHUB_USERNAME = "frankisinfotech"
+    SERVICE_NAME       = "jenkins-with-docker-registry"
+    ORGANIZATION_NAME  = "lawalMuiz"
+    DOCKERHUB_USERNAME = "muizudeen"
     REGISTRY_TAG       = "${DOCKERHUB_USERNAME}/${ORGANIZATION_NAME}-${SERVICE_NAME}:${BUILD_ID}"
   }
   
