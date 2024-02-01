@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     SERVICE_NAME       = "jenkins-with-docker-registry"
-    ORGANIZATION_NAME  = "lawalMuiz"
+    ORGANIZATION_NAME  = "lawalmuiz"
     DOCKERHUB_USERNAME = "muizudeen"
     REGISTRY_TAG       = "${DOCKERHUB_USERNAME}/${ORGANIZATION_NAME}-${SERVICE_NAME}:${BUILD_ID}"
   }
